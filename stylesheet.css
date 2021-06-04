@@ -1,0 +1,74 @@
+body {
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+    border-width: 5px;
+    border-color: darkred;
+    border-style: ridge;
+    border-bottom: #593d87 10px solid;
+}
+
+h1.serious{
+    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20pt;
+    color: #FF9933;
+    background-color: black;
+    text-align: center;
+    text-indent: 12px;
+}
+
+h1.silly{
+    font: 26pt Arial;
+    text-align:right;
+}
+
+p.subheader {
+    font-weight: bold;
+    color: #593d87;
+    display: list-item;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img {
+    padding: 3pt;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #8094d6;
+}
+
+a:hover, a:active {
+    color: #FF9933;
+}
+
+footer {
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 8pt;
+    text-align: center;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
+    width: 200px;
+}
+
+p#title{
+    font: 24pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.someclass{
+    font: 24pt "Times New Roman";
+    text-align: left;
+}
