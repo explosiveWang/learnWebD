@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+    <script type="text/javascript">
+        function greet(who){
+            alert("Greetings "+who+"!");
+        }
+        function average(a,b,c,d) {
+            var result = (a+b+c+d)/4;
+            return result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Function Example</h1>
+    <p>Who are you?</p>
+    <button type="button" onclick="greet('Fred');">I am Fred.</button>
+    <button type="button" onclick="greet('Ethel');">I am Ethel.</button>
+    <h2>Average Function Call</h2>
+    <script type="text/javascript">
+        var score=average(3,4,5,6);
+        document.write("The average is: "+score);
+    </script>
+</body>
+</html>
