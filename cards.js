@@ -3,15 +3,17 @@ function printCard() {
     var nameLine = "<strong>Name: </strong>" + this.name + "<br>";
     var emailLine = "<strong>Email: </strong>"+this.email+"<br>";
     var addressLine = "<strong>Address: </strong>"+this.address+"<br>";
-    var phoneLine = "<strong>Phone: </strong>"+this.phone+"<hr>";
+    var phoneLine = "<strong>Phone: </strong>"+this.phone+"<br>";
+    var personalNotes = "<strong>Personal Notes: </strong>"+this.personalNotes+"<hr>";
     document.write(nameLine, emailLine, addressLine, phoneLine);
 }
 
-function Card(name, email, address, phone) {
+function Card(name, email, address, phone, personalNotes) {
     this.name = name;
     this.email = email;
     this.address = address;
     this.phone =  phone;
+    this.personalNotes = personalNotes;
     this.printCard = printCard;
 }
 
